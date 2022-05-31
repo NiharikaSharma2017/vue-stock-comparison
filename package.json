@@ -1,0 +1,19 @@
+{
+  "name": "stock-compare",
+  "version": "1.0.0",
+  "description": "An app to compare stocks.",
+  "main": "main.js",
+  "scripts": {
+    "serve": "node main.js",
+    "dev": "supervisor  main.js"
+  },
+  "author": "Niharika Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "jquery": "^3.6.0",
+    "supervisor": "^0.12.0"
+  }
+}
